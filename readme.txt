@@ -19,14 +19,21 @@ The Pharmacist Care Plan Document Implementation Guide (IG) background material
 CDAR2_IG_CCDA_MTM_CAREPLAN_R1_D1_2020Jan_Templates_and_Supporting.docx
 The Pharmacist Care Plan Document Implementation Guide (IG) computable constraints with example code (Figures) and vocabulary OID listing 
 	
--- Sample files ---
+
+The latest CDA Schema is located on the HL7 GForge site:
+               http://gforge.hl7.org/gf/project/strucdoc/frs/?action=FrsReleaseBrowse&frs_package_id=302 
+
+A GForge account is required.
+
+GIT Hub contains the supporting files:
+      https://github.com/HL7/cda-pharmacist-cp
+
+----- Sample files ---
 CDAR2_IG_CCDA_MTM_CAREPLAN_R1_D1_2020Jan_USE_CASE_4.xml
 CDAR2_IG_CCDA_MTM_CAREPLAN_R1_D1_2020Jan_USE_CASE_4.html
 
 
-The latest CDA Schema is located on the HL7 GForge site:
-               http://gforge.hl7.org/gf/project/strucdoc/frs/?action=FrsReleaseBrowse&frs_package_id=302  
+----- Schematron ---
+CDAR2_IG_CCDA_MTM_CAREPLAN_R1_D1_2020Jan.sch
 
-A GForge account is required. See GForge http://gforge.hl7.org/gf/project/pher/scmsvn/?action=AccessInfo for access information.
-
-December 19, 2019
+January 14, 2020
