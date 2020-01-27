@@ -77,7 +77,7 @@
 <?xml-stylesheet type="text/css" href="../../../../validation/CDA%20V2/Schema/infrastructure/cda/CDA_SDTC.xsd"?>
 <?xml-stylesheet type="text/css" href="../../../../validation/CDA%20V2/Schema/infrastructure/cda/POCD_MT000040_SDTC.xsd"?>
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="urn:hl7-org:v3 ../../../../validation/CDA%20V2/Schema/infrastructure/cda/CDA_SDTC.xsd urn:hl7-org:v3 ../../../../validation/CDA/schema/infrastructure/cda/CDA_SDTC.xsd"
+ xsi:schemaLocation="urn:hl7-org:v3 ../CDA%20Pharmicist%20Care%20Plan%20R1D1July%202019_updated(1)/CDA%20Pharmicist%20Care%20Plan%20R1D1July%202019_updated/Validation%20Files/CDA_SDTC.xsd"
  xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc"
  xmlns:voc="http://www.lantanagroup.com/voc">
   <!-- DataElement: Realm Code -->
@@ -5398,7 +5398,7 @@
               <code code="2713116003" codeSystem="2.16.840.1.113883.6.96" displayName="Monitoring adherence to medication regime (regime/therapy)" codeSystemName="SNOMED CT"/>              
               <statusCode code="completed"/>
               <effectiveTime value="20161125"/>                 
-              <value xsi:type="CD"/>               
+              <value xsi:type="CD" nullFlavor="NI"/>               
               <performer>
                 <assignedEntity>
                   <id root="2.16.840.1.113883.4.6" extension="6666666666666"/>
@@ -5751,7 +5751,7 @@
                   <code code="441041000124100" codeSystem="2.16.840.1.113883.6.96" displayName="Counseling about nutrition (procedure)" codeSystemName="SNOMED CT"/>              
                   <statusCode code="completed"/>
                   <effectiveTime value="20161125"/>                 
-                  <value xsi:type="CD"/>               
+                  <value xsi:type="CD" nullFlavor="NI"/>               
                   <performer>
                     <assignedEntity>
                       <id root="2.16.840.1.113883.4.6" extension="6666666666666"/>
